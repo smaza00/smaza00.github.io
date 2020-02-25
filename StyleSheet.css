@@ -7,4 +7,47 @@ body {background-color: rgb(180, 99, 255);}
     
     
     
+    ul.nav {
+    background-color = blue;
+    margin: 0;
+    }
     
+    
+    * {
+        		box-sizing: border-box;
+        	}
+        	
+        	.row {
+        		content: "";
+        		display: table;
+        		clear: both;
+    		}
+    		
+    		.columnLeft{
+    			float: left;
+    			width: 50%;
+    			padding: 20px;
+    		}
+    		
+    		.columnRight{
+    			float: right;
+    			width: 50%;
+    			padding: 20px;
+    		}
+    ul.nav {
+background-color:  blue;
+margin: 0;
+padding: 0;
+overflow: hidden;}
+
+
+li a {
+float: left;
+display: block;
+color: pink;
+padding: 8px 16px; }
+
+
+li a:hover {
+background-color: pink;
+color: white;}

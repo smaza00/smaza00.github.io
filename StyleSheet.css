@@ -1,56 +1,57 @@
-body {background-color: rgb(180, 99, 255);}
-    p {color: rgb(255, 255, 255);}
-    h1{color: rgb(0, 65, 230);
-    font-family: cursive;
-    font-size: 50px;}
-    h2{color: rgb(0, 65, 230);
-    font-family: sans-serif;}
-    h3{color: rgb(0, 65, 230);}
-    p{font-family: fantasy;}
+body {background-color: rgb(180, 99, 255);} /* Changes the color of the whole websites background */ 
+    p {color: rgb(255, 255, 255); /* Changes the font color of all the text under the paragraphs  */ 
+    font-family: fantasy;} /* Changes the font style of the text under the paragraphs  */ 
+    h1{color: rgb(0, 65, 230); /* Changes the color of the 1st headline  */ 
+    font-family: cursive; /* Changes the font style of the 1st headline  */ 
+    font-size: 50px;} /* Changes the font size of the 1st headline  */ 
+    h2{color: rgb(0, 65, 230); /* Changes the color of the 2nd headline  */ 
+    font-family: sans-serif;} /* Changes the font style of the 2nd headline  */ 
+    h3{color: rgb(0, 65, 230);} /* Changes the color of the 3rd headline  */  
+   
     
     
 * {
-	box-sizing: border-box;}
+	box-sizing: border-box;} /* Creates the box size */ 
         	
-.row {
-	content: "";
-	display: table;
+.row { /* Creates the different rows for the table */ 
+	content: ""; 
+	display: table; /* Shows that the chart as a table  */ 
 	clear: both;}
     		
-.columnLeft{
-	float: left;
-	width: 50%;
-	padding: 20px;}
+.columnLeft{ /* Left column information  */ 
+	float: left; /* Text will be on the left side of the page  */ 
+	width: 50%; /* Shows the size of a box */ 
+	padding: 20px;} /*  The text will have a 'padding' away from the side of the page */ 
     		
-.columnRight{
-	float: right;
-	width: 50%;
-	padding: 20px;}
+.columnRight{ /* Right column information  */ 
+	float: right; /* Text will be on the left side of the page  */ 
+	width: 50%; /* Shows the size of a box */ 
+	padding: 20px;} /*  The text will have a 'padding' away from the side of the page */ 
 	
 	
-ul.nav {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	background-color: blue;
-	position: relative;
-	overflow: hidden;
-	top: 0;
-	left:0;}
+ul.nav { /* Gives information to the table */
+	list-style-type: none; /* There is no specific style on the text */
+	margin: 0; /* There isn't any side on the margin */
+	padding: 0; /* There is no buffer on the sides */
+	width: 100%; /* It'll take up the whole page */
+	background-color: blue; /* Picks the color */
+	position: relative; /* In a more normal place */
+	overflow: hidden; /* There isn't any overflow */
+	top: 0; /* Nothing on top of the table */
+	left:0;} /* Nothing on the left of the table */
 
-ul.nav li a {
-	float: left;
-	display: block;
-	color: pink;
-	padding: 8px 16px;
-	text-decoration: none; }
+ul.nav li a { /* Makes the top bar */
+	float: left; /* Has the top bar words go to the left */
+	display: block; /* The shape is a block, rectangle*/
+	color: pink; /* The color of the block is pink */
+	padding: 8px 16px; /* Makes the bar not directly touching the side*/
+	text-decoration: none; } /* There is nothing fancy on the bar */
 
-ul.nav li a.active {
-	background-color: green;
-	color: white; }
+ul.nav li a.active { /* When the button is clicked */
+	background-color: green; /* When the button is clicked it turns green */
+	color: white; } /* When the button is clicked the words are white */
 
-ul.nav li a:hover {
-	background-color: pink;
-	color: white; }
+ul.nav li a:hover { /* When the mouse is over the button */
+	background-color: pink; /* The button will become pink */
+	color: white; } /* The words will become white */
 	
